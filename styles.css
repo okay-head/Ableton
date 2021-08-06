@@ -236,6 +236,7 @@ main {
 }
 
 .jobs {
+   overflow: hidden;
    grid-row: jobs-st/jobs-end;
    grid-column: 2/12;
 
@@ -244,7 +245,7 @@ main {
 }
 img {
    max-width: 100%;
-   max-height: 100%;
+   /* max-height: 100%; */
 }
 .jobs .text {
    display: flex;
