@@ -101,7 +101,7 @@ nav.broken a:nth-child(2) {
    display: grid;
    gap: 0.5em;
    grid-template-columns: repeat(12, [col] 1fr);
-   grid-template-rows: [hero-start] 90vh [hero-end intro-start] 0.9fr [intro-end yellow-start] 0.3fr [img2-start] 0.3fr [img3-start] 0.65fr [img3-end] 0.3fr [img2-end] 0.3fr[yellow-end section1-start] 0.81fr [section1-end video-st] 1fr [video-end section2-st] 0.82fr [section2-end green-st] 0.3fr [img4-st] 0.3fr [img5-st] 0.48fr [img4-end] 0.3fr [img6-st] 0.48fr [img5-end] 0.3fr [img6-end] 0.3fr [green-end section3-st] 0.82fr [section3-end imgL-st] 90vh [imgL-end section4-st] 0.82fr [section4-end purple-st] 0.25fr [img8-st] 0.3fr [img7-st] 0.7fr [img7-end] 0.3fr [img8-end] 0.25fr [purple-end section5-st] 0.82fr [section5-end jobs-st] 70vh [jobs-end bottom-pad] 0.38fr;
+   grid-template-rows: [hero-start] 90vh [hero-end intro-start] 0.9fr [intro-end yellow-start] 0.3fr [img2-start] 0.3fr [img3-start] 0.65fr [img3-end] 0.3fr [img2-end] 0.3fr[yellow-end section1-start] 0.81fr [section1-end video-st] 0.8fr [video-end section2-st] 0.82fr [section2-end green-st] 0.3fr [img4-st] 0.3fr [img5-st] 0.48fr [img4-end] 0.3fr [img6-st] 0.48fr [img5-end] 0.3fr [img6-end] 0.3fr [green-end section3-st] 0.82fr [section3-end imgL-st] 90vh [imgL-end section4-st] 0.82fr [section4-end purple-st] 0.25fr [img8-st] 0.3fr [img7-st] 0.7fr [img7-end] 0.3fr [img8-end] 0.25fr [purple-end section5-st] 0.82fr [section5-end jobs-st] 70vh [jobs-end bottom-pad] 0.38fr;
 }
 
 main {
@@ -167,7 +167,8 @@ main {
 }
 
 .embedded-video {
-   background-color: var(--dark-blue);
+   background: var(--dark-blue) url('Media/why-ableton.png') no-repeat center scroll;
+   background-size: contain;
    grid-row: video-st/video-end;
    grid-column: 4/10;
 }
@@ -341,7 +342,8 @@ p.select{
 }
 select{
    padding: 8px 6px;
-   border:none;
+   /* border:none; won't fix, issue still in chromium*/   
+   border: 0.1px solid white;
    background-color: #80808024;
 }
 select option{
