@@ -1,3 +1,4 @@
-Check deployment [here](https://okay-head.github.io/Ableton/)
+## Check deployment [here](https://okay-head.github.io/Ableton/)
 
-(NOTE: Site still under progress)
+(ps: css grid is amazing!)
+
