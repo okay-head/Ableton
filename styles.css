@@ -59,10 +59,16 @@ nav {
    display: none;
    padding: 20px 0;
    cursor: pointer;
+   position: relative;
+}
+.menu-btn::after{
+   content: '▼';
+   font-size: 0.6em;
+   margin-left: 7px;
 }
 nav.main {
    /* border: 1px solid red; */
-   padding-left: 5em;
+   padding-left: 3em;
    padding-right: 1em;
    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.171);
 }
@@ -497,6 +503,9 @@ select option{
    .hero-text{
       font-size: 3.5rem;
    }
+   .small{
+      font-size: 15px;
+   }
    .grid-wrapper{
       grid-template-rows: [hero-start] 76vh [hero-end intro-start] 0.9fr [intro-end yellow-start] 0.1fr [img2-start] 0.1fr [img3-start] 0.3fr [img3-end] 0.1fr [img2-end] 0.1fr[yellow-end section1-start] 0.81fr [section1-end video-st] 0.65fr [video-end section2-st] 0.82fr [section2-end green-st] 0.1fr [img4-st] 0.1fr [img5-st] 0.18fr [img4-end] 0.1fr [img6-st] 0.18fr [img5-end] 0.1fr [img6-end] 0.1fr [green-end section3-st] 0.82fr [section3-end imgL-st] 50vh [imgL-end section4-st] 0.82fr [section4-end purple-st] 0.15fr [img8-st] 0.1fr [img7-st] 0.3fr [img7-end] 0.1fr [img8-end] 0.15fr [purple-end section5-st] 0.82fr [section5-end jobs-st] 75vh [jobs-end bottom-pad] 0.3fr;
    }
@@ -511,6 +520,9 @@ select option{
 @media screen and (max-width: 420px) {
    .hero-text{
       font-size: 3rem;
+   }
+   .small{
+      font-size: 14px;
    }
    .grid-wrapper{
       grid-template-rows: [hero-start] 73vh [hero-end intro-start] 0.75fr [intro-end yellow-start] 0.05fr [img2-start] 0.05fr [img3-start] 0.15fr [img3-end] 0.05fr [img2-end] 0.05fr[yellow-end section1-start] 0.68fr [section1-end video-st] 0.45fr [video-end section2-st] 0.95fr [section2-end green-st] 0.05fr [img4-st] 0.05fr [img5-st] 0.09fr [img4-end] 0.05fr [img6-st] 0.09fr [img5-end] 0.05fr [img6-end] 0.05fr [green-end section3-st] 0.82fr [section3-end imgL-st] 40vh [imgL-end section4-st] 0.82fr [section4-end purple-st] 0.075fr [img8-st] 0.05fr [img7-st] 0.15fr [img7-end] 0.05fr [img8-end] 0.075fr [purple-end section5-st] 0.82fr [section5-end jobs-st] 75vh [jobs-end bottom-pad] 0.3fr;
