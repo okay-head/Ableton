@@ -48,11 +48,74 @@ html {
 .small {
    font-size: 16px;
 }
-
+.fade-out{
+      opacity: 0;
+      transform: translateY(45px);
+}
+/* .fade-in{
+      opacity: 1;
+      transform: translateY(0);
+} */
+.transition{
+   transition: 0.5s ease all;
+}
 /* --- header --- */
+header{
+   position: relative;
+}
 nav {
    font-size: 19.5px;
 }
+/* .mobile-dropdown{
+   min-height: 60vh;
+} */
+.mobile-dropdown,.menu,
+.fall1,.fall2,.fall3,.fall4{
+   position: absolute;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+.mobile-dropdown{
+   padding: 0.6em 0;
+   top: 65px;
+   z-index: 5;
+   padding-left: 0.4em;
+   font-size: 16px;
+
+   display: flex;
+   flex-flow: column nowrap;
+   color: white;
+   background-color: var(--dark-blue);
+}
+.blue-bg{
+   background-color: var(--dark-blue);
+   color: white;
+}
+.mobile-dropdown a{
+   padding: 16px 2px;
+}
+.fall1,.fall2,.fall3,.fall4{
+   top: 65px;
+   height: 100%;
+}
+.fall1{
+   z-index: 3;
+   background-color: var(--orange);
+}
+.fall2{
+   z-index: 2;
+   background-color:var(--yellow);
+}
+.fall3{
+   z-index: 1;
+   background-color:var(--purple);
+}
+/* .fall4{
+   z-index: 1;
+   background-color: var(--dark-blue);
+} */
+
 .menu-btn{
    display: none;
    padding: 20px 0;
@@ -288,6 +351,17 @@ main {
    padding: 20px 0;
    margin: 4.5% 0;
 }
+#jobs-button-arrow{
+   transition: 0.4s ease margin;
+}
+.jobs-button:hover #jobs-button-arrow{
+   margin-left: 5px;
+   /* margin-top: 10px; */
+   /* text-shadow:0px 0 1px black; */
+   /* font-weight: 900; */
+}
+
+
 
 /* --- footer --- */
 footer {
@@ -318,10 +392,17 @@ footer h2 {
 footer a {
    padding: 0;
    margin: 0;
+   position: relative;
+}
+footer a:hover{
+   font-weight: 900;
 }
 footer a::after {
-   font-size: 0.55em;
-   content: " >";
+   margin-left: 0.2%;
+   position: absolute;
+   top: -15%;
+   font-size: 1.2em;
+   content: " \203a";
 }
 
 form {
@@ -431,10 +512,13 @@ select option{
 
 @media screen and (max-width:1025px){
    nav.main{
-      padding-left: 1.8em;
+      padding-left: 1.3em;
    }
    ul{
       display: none;
+   }
+   nav.broken{
+      padding-left: 0.8em;
    }
    .menu-btn{
       display: block;
