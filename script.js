@@ -4,7 +4,9 @@
 $('.mobile-dropdown').hide();
 // $('.menu').hide();
 
-
+$('.menu-btn').focus(()=>{
+   preventDefault();
+})
 $('.menu-btn').click(()=>{
    $('.mobile-dropdown').slideToggle(600)
    $('.main').toggleClass('blue-bg')
