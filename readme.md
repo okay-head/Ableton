@@ -1,4 +1,7 @@
 ## Check deployment [here](https://okay-head.github.io/Ableton/)
 
-PS: CSS grid is amazing!
+Inspired from https://www.frontendpractice.com/
 
+- Recreated Ableton home page
+- Uses CSS grid to power responsiveness
+- #No-framework site
