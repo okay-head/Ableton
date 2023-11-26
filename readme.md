@@ -8,9 +8,7 @@
 <p align="center">Recreated Ableton home page using good ol' HTML CSS. It's one of those projects where you can't just get enough of CSS! </p>
 <p align="center">Inspired from <a href="https://www.frontendpractice.com/" target="_blank">Frontend practice</a></p>
 
-## Demo
-
-[Live site](https://okay-head.github.io/Ableton/)
+## [Demo](https://okay-head.github.io/Ableton)
 
 ![Ableton](/Media/About-Ableton.png)
 
