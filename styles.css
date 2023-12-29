@@ -66,9 +66,6 @@ header{
 nav {
    font-size: 19.5px;
 }
-/* .mobile-dropdown{
-   min-height: 60vh;
-} */
 .mobile-dropdown,.menu,
 .fall1,.fall2,.fall3,.fall4{
    position: absolute;
