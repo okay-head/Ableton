@@ -108,11 +108,6 @@ nav {
    z-index: 1;
    background-color:var(--purple);
 }
-/* .fall4{
-   z-index: 1;
-   background-color: var(--dark-blue);
-} */
-
 .menu-btn{
    display: none;
    padding: 20px 0;
