@@ -1,12 +1,7 @@
 <h1 align="center">Ableton </h1>
 <p align="center">
-  <a href="https://okay-head.github.io/Ableton/" target="_blank">
-    <img alt="custom badge" src="https://img.shields.io/badge/Github%20pages-327fc7" />
-</a>
-  <a href="/LICENSE.md" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-    <img alt="custom badge" src="https://img.shields.io/badge/No%20framework%20project-ff7d42" />
+  <a href="https://okay-head.github.io/Ableton/" target="_blank"><img alt="custom badge" src="https://img.shields.io/badge/Github%20pages-327fc7" /></a>
+  <a href="/LICENSE.md" target="_blank"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a><img alt="custom badge" src="https://img.shields.io/badge/No%20framework%20project-ff7d42" />
 </p>
 
 > Recreated Ableton home page. Inspired from https://www.frontendpractice.com/
