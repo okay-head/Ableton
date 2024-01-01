@@ -5,7 +5,9 @@
   &nbsp;<img alt="custom badge" src="https://img.shields.io/badge/No%20framework%20project-ff7d42" />
 </p>
 
-> Recreated Ableton home page. Inspired from https://www.frontendpractice.com/
+> Recreated Ableton home page using good ol' HTML CSS. It's one of those projects where you can't just get enough of CSS!
+> 
+> Inspired from [Frontend practice](https://www.frontendpractice.com/)
 
 
 ## Demo
