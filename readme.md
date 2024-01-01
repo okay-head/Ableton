@@ -1,17 +1,28 @@
 <h1 align="center">Ableton </h1>
-<p>
-  <a href="./LICENSE.md" target="_blank">
+<p align="center">
+  <a href="https://okay-head.github.io/Ableton/" target="_blank">
+    <img alt="custom badge" src="https://img.shields.io/badge/Github%20pages-327fc7" />
+</a>
+  <a href="/LICENSE.md" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
+    <img alt="custom badge" src="https://img.shields.io/badge/No%20framework%20project-ff7d42" />
 </p>
 
 > Recreated Ableton home page. Inspired from https://www.frontendpractice.com/
+
 
 ## Demo
 
 [Live site](https://okay-head.github.io/Ableton/)
 
-screenshot here
+![Ableton](/Media/About-Ableton.png)
+
+## Highlights
+
+- 100% responsive
+- CSS grid powers the complex design
+- jQuery for subtle animations
 
 ## Author
 
@@ -31,4 +42,4 @@ This project is [MIT](./LICENSE.md) licensed.
 
 ## Acknowledgements
 
-- Quick scaffolding readme by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+Quick scaffolding readme by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
