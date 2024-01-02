@@ -5,14 +5,13 @@
   &nbsp;<img alt="custom badge" src="https://img.shields.io/badge/No%20framework%20project-ff7d42" />
 </p>
 
-> Recreated Ableton home page using good ol' HTML CSS. It's one of those projects where you can't just get enough of CSS!
-> 
-> Inspired from [Frontend practice](https://www.frontendpractice.com/)
+> <p align="center">Recreated Ableton home page using good ol' HTML CSS. It's one of those projects where you can't just get enough of CSS! </p>
+> <p align="center">Inspired from <a href="https://www.frontendpractice.com/" target="_blank">Frontend practice</a></p>
 
 
 ## Demo
 
-[Live site](https://okay-head.github.io/Ableton/)
+[Live site](https://okay-head.github.io/Ableton/) 
 
 ![Ableton](/Media/About-Ableton.png)
 
