@@ -9,9 +9,7 @@
 > <p align="center">Inspired from <a href="https://www.frontendpractice.com/" target="_blank">Frontend practice</a></p>
 
 
-## Demo
-
-[Live site](https://okay-head.github.io/Ableton/) 
+## [Demo](https://okay-head.github.io/Ableton)
 
 ![Ableton](/Media/About-Ableton.png)
 
